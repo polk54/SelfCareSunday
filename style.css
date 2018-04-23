@@ -16,7 +16,7 @@ body{
 
 @media only screen and (max-width: 600px) {
   body{
-    padding: 10px 20px 10px 20px;
+    padding: 10px 10px 10px 20px;
   }
 }
 
@@ -35,11 +35,11 @@ section{
 
 section1{
   float: left;
-  width: 80%;
+  width: 90%;
 }
 section2{
   float: left;
-  width: 80%;
+  width: 90%;
   border: 1px solid #8D9096;
 }
 
