@@ -47,9 +47,12 @@ section2{
   section{
     grid-template-columns: repeat(1, 1fr);
   }
+  section1{
+    float: left;
+    width: 100%;
+  }
   section2{
     float: left;
-    width: 80%;
     margin: 40px 0px 0px 0px
     border: 1px solid #8D9096;
   }
