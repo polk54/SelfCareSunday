@@ -1,6 +1,7 @@
 h1{
-  color: #28C4D8;
-  font-size: 32px;
+  color: #009CD1;
+  font-size: 45px;
+  line-height: 40px;
 }
 
 i{
@@ -8,14 +9,14 @@ i{
 }
 
 h2{
-  color: #8D9096;
+  color: #75B7E0;
   font-size: 24px;
   font-weight: light;
 }
 
 body{
   font-family: 'Open Sans', sans-serif;
-  padding: 10px 20px 10px 40px;
+  padding: 40px 20px 10px 100px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -26,6 +27,20 @@ body{
 
 p{
   flex-wrap: wrap;
+  color: #003459;
+}
+
+#bar{
+  width: 50px;
+  height: 5px;
+  background: #009CD1;
+}
+
+@media only screen and (max-width: 600px) {
+  #bar{
+    width: 300px;
+    height: 2px;
+  }
 }
 
 section{
@@ -62,8 +77,8 @@ section2{
 }
 
 #wordDisplay{
-  color: #28C4D8;
-  font-size: 24px;
+  color: #009CD1;
+  font-size: 32px;
   padding: 20px 20px 20px 20px;
 }
 
@@ -71,7 +86,7 @@ button {
   font-family: 'Open Sans', sans-serif;
   color: white;
   font-size: 16px;
-  background: #28C4D8;
+  background: #BEBFC0;
   padding: 10px 20px 10px 20px;
   margin: 30px 0px 0px 0px;
   text-decoration: none;
@@ -79,7 +94,7 @@ button {
 }
 
 button:hover {
-  background: #1E8F9E;
+  background: #009CD1;
   text-decoration: none;
   border: none;
 }
@@ -104,16 +119,17 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color: #28C4D8;
+    color: #009CD1;
 }
 
 /* selected link */
 a:active {
-    color: #28C4D8;
+    color: #009CD1;
 }
 
 footer{
   font-family: 'Open Sans', sans-serif;
-  color: #8D9096;
+  color: #555555;
   font-size: 12px;
+  margin-top: 40px;
 }

@@ -16,4 +16,6 @@ var words = ["Write down 5 things that make you happy",
 "Take yourself out to a nice dinner",
 "Put on a facemask",
 "Listen to relaxing music - like bossa nova",
-"Go for a long walk",]
+"Go for a long walk",
+"Call a friend or family member",
+"Drink a cup of tea"]
